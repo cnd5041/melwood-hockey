@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Github Pages Depoloyment
+
+Deployed to: https://cnd5041.github.io/melwood-hockey/
+
+Using: https://github.com/angular-buch/angular-cli-ghpages
+To Build: run `ng build --prod --base-href "https://cnd5041.github.io/melwood-hockey/"`
+To Deploy: run `ngh --repo=https://cnd5041:<Access-Token>@github.com/cnd5041/melwood-hockey.git --name="cnd5041" --email=cnd5041@gmail.com`
